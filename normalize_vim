@@ -1,0 +1,7 @@
+set nu
+:%s/;\s\+/;/g
+:%s/    /\t/g
+:7 vkk :m -3 k<< k<<
+:11 << <<
+:16 llxP :17 wP :6 wP
+fn + f1
