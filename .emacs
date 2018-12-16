@@ -1,3 +1,5 @@
+(setq backup-directory-alist `(("." . "~/.emacs.d/emacs_backup")))
+
 (global-font-lock-mode 't)
 (require 'ansi-color)
 (defun colorize-compilation-buffer ()
