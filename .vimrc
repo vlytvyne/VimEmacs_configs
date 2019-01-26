@@ -46,3 +46,8 @@ function! MakeHeader()
 endfunction
 
 :map <silent> <C-c><C-h> :call MakeHeader()<CR>
+
+command W w
+command Q q
+command Wq wq
+command WQ wq
